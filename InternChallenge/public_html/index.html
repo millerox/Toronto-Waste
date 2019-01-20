@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Waste Lookup Toronto</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <!-- My CSS & Fonts & Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="myStyles.css" type="text/css">
+        <!-- jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="header-wrapper">
+            <div class="header">
+                <h3>Toronto Waste Lookup</h3>
+            </div>  
+        </div>
+        <br>
+        <div class="search-wrapper">
+            <div class="input-group" id="searchbar">
+                <input type="text" placeholder="Search.." name="search" class="form-control input-lg" id="searchField">
+                <div class="input-group-btn">
+                    <button class="btn btn-lg" type="submit" id="searchBt"><i class="fa fa-search"></i></button>
+                </div>   
+            </div>
+        </div>
+        <br>
+        <div class="results-wrapper">
+
+        </div>
+        <br>
+        <div class="favour">
+            <div class="favourites-wrapper">
+                <h3>Favourites</h3> 
+                <div class="favourites"> </div>
+            </div> 
+        </div>
+        <script type="text/javascript" src="Favourites.js"></script>
+        <script type="text/javascript" src="Matching-Item.js"></script>
+        <script type="text/javascript" src="Search.js"></script>
+        <script type="text/javascript" src="myScript.js"></script>
+    </body>
+</html>
